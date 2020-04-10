@@ -8,6 +8,9 @@ turuncu = rgb(239, 89, 28)
 body{
     font-family: 'Roboto Slab', serif;
     color: rgb(255,255,255);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
@@ -44,6 +47,21 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu a:hover{
     color: white;
     background-color: rgb(166,147,98);
+}
+
+/* Particle */
+#particles-js{
+    height: 400px;
+    background: rgb(8,18,43);
+    border-bottom: solid 2px rgb(166,147,98);
+}
+
+/* Menuler */
+.menuyazi{
+    background-color: rgb(8,18,43); 
+    color:white; 
+    padding-bottom:20px; 
+    padding-top:10px;
 }
 
 /* Footer */
