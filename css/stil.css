@@ -1,0 +1,79 @@
+/*
+beyaz = rgb(255,255,255)
+mavi = rgb(19,43,100)
+sarı = rgb(166,147,98)
+koyu mavi = rgb(8,18,43)
+turuncu = rgb(239, 89, 28)
+*/
+body{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255,255,255);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255,255,255);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+/* Navbar Menu */
+.navbar{
+    background-color: rgb(19,43,100);
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    color: rgb(166,147,98);
+    font-weight: bolder;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.nav-link{
+    color: rgb(255,255,255);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: rgb(166,147,98);
+}
+.dropdown-menu{
+    background-color: rgb(19,43,100)!important;
+}
+.dropdown-menu a{
+    color: white;
+}
+.dropdown-menu a:hover{
+    color: white;
+    background-color: rgb(166,147,98);
+}
+
+/* Footer */
+.anaDivFooter{
+    background-color: rgb(8,18,43);
+    padding-top: 10px;
+}
+.anaDivFooter a{
+    text-emphasis: none;
+    color: white;
+    text-decoration: none;
+    
+}
+.anaDivFooter a:hover{
+    color: rgb(166,147,98);
+}
+.anaDivFooter h5{
+    color: rgb(166,147,98);
+}
+.anaDivFooter span{
+    margin-right: 10px!important;
+    color: white;
+}
+.anaDivFooter span:hover{
+    margin-right: 10px!important;
+    color: rgb(166,147,98);
+}
+.footer-copyright {
+    font-style: italic;
+}
+.altcizgi{
+    border-bottom:solid 2px  rgb(166,147,98);
+}
