@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 #particles-js{
     height: 400px;
     background: rgb(8,18,43);
+    border-top: solid 2px rgb(166,147,98);
     border-bottom: solid 2px rgb(166,147,98);
 }
 
@@ -63,6 +64,41 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom:20px; 
     padding-top:10px;
 }
+.card-title {
+    color: black;
+}
+.card-text{
+    color: black;
+}
+.card-body p {
+    color: black!important;
+}
+.collapse-content .fa.fa-heart:hover {
+    color: #f44336 !important;
+  }
+  .collapse-content .fa.fa-share-alt:hover {
+    color: #0d47a1 !important;
+  }
+  #calisma {
+      background-color: rgb(19,43,100);
+      margin-top:10px; 
+      margin-bottom:10px; 
+      padding:10px;
+  }
+
+  /* Yayinlar */
+  .baslik {
+      text-transform: uppercase;
+      color: rgb(166,147,98);
+      font-weight: bolder;
+  }
+  .sari {
+      
+      color: rgb(239, 89, 28);
+      font-weight: bolder;
+      font-style: italic;
+      font-size: large;
+  }
 
 /* Footer */
 .anaDivFooter{
