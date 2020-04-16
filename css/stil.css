@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar{
     background-color: rgb(19,43,100);
 }
+#ikon:hover{
+    color: rgb(239, 89, 28)!important;
+}
 .navbar-brand{
     font-family: 'Pacifico', cursive;
     color: rgb(166,147,98);
